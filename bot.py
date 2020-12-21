@@ -3,8 +3,8 @@ from selenium.webdriver.common.by import By
 from twilio.rest import Client
 
 def send_whatsapp(nome, preco):
-    account_sid = 'ACb311d3c21c97e9c99a7930da30014112'
-    auth_token = 'c00e07fc79c615b1a38c3d12072e7229'
+    account_sid = 'XXXXXX'
+    auth_token = 'XXXXX'
     client = Client(account_sid, auth_token)
 
     message = client.messages.create(
